@@ -1,4 +1,6 @@
 # make a list to hold onto our our items
+shopping_list = []
+
 # print out instructions on how to use the app
 # ask for new items
 # add new items to our list
