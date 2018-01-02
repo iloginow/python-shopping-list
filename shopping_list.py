@@ -26,6 +26,7 @@ while True:
         print("Enter 'DONE' to stop adding items.")
         print("Enter 'SHOW' to see what's currently on the list.")
         print("Enter 'HELP' to get info about the special commands.")
+        continue
 
     # add new items to our list
     shopping_list.append(new_item)
