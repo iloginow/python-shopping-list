@@ -7,7 +7,6 @@ def show(items):
 
 # print out instructions on how to use the app
 print("What should we pick up at the store?")
-print("Enter 'DONE' to stop adding items.")
 
 while True:
     # ask for new items
@@ -21,6 +20,12 @@ while True:
     elif new_item == 'SHOW':
         show(shopping_list)
         continue
+
+    # show help message about the special commands
+    elif new_item == 'HELP':
+        print("Enter 'DONE' to stop adding items.")
+        print("Enter 'SHOW' to see what's currently on the list.")
+        print("Enter 'HELP' to get info about the special commands.")
 
     # add new items to our list
     shopping_list.append(new_item)
