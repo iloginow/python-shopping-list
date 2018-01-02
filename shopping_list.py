@@ -20,6 +20,7 @@ while True:
     # be able to see what's currently on the list
     elif new_item == 'SHOW':
         show(shopping_list)
+        continue
 
     # add new items to our list
     shopping_list.append(new_item)
